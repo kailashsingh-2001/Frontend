@@ -1,0 +1,13 @@
+.container{
+    background-color:black;
+    height: 600px;
+    color:yellow;
+    font-size: 20px; 
+text-shadow: 2px 3px 1px white;
+    
+}
+.container img{
+    border-radius: 30px;
+    border: 2px solid white;
+    box-shadow:  3px 2px 3px 4px white;
+}
