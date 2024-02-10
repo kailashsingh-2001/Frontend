@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+}
+
+.nav {
+    width: 100%;
+
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav ul li {
+    padding: 10px;
+
+}
+
+.main {
+
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.inner-main {
+
+    text-align: center;
+}
+
+.inner-main img {
+
+    height: 25%;
+    width: 80%;
+}
+
+.section {
+
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.innersection {
+    background-color: white;
+    border: 1px solid rgb(200, 199, 199);
+    border-radius: 30px;
+    height: 35px;
+    width: 39%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+
+}
+
+.form {
+
+    height: 30px;
+    width: 80%;
+
+
+}
+
+input {
+    border: 1px solid white;
+
+    width: 100%;
+    height: 28px;
+}
+
+.icon1 {
+    color: rgb(193, 190, 190);
+
+}
+
+.icon {
+
+    color: blue;
+
+
+}
+
+.buttons {
+    width: 100%;
+
+    height: 10%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn {
+    width: 18%;
+
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.button {
+    background-color: rgb(247, 243, 243);
+    border: none;
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: rgb(247, 243, 243);
+    border: 1px solid rgb(175, 175, 175);
+    box-shadow: 1px 1px 1px rgb(175, 175, 175);
+}
+
+
+.google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    background-color: rgb(252, 250, 250);
+    margin-top: 13%;
+    width: 100%;
+    height: 17%;
+}
+
+.india {
+
+
+    display: flex;
+    align-items: center;
+    height: 50%;
+    border-bottom: 1px solid rgb(159, 159, 159);
+
+
+}
+
+.upper-footer {
+    height: 50%;
+    display: flex;
+
+
+}
+
+.inner-footer {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.inner-footer ul {
+
+    display: flex;
+    list-style-type: none;
+
+}
+
+.inner-footer li {
+    padding: 9px;
+    font-size: 14px;
+}
+
+.inner-footer1 {
+
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+
+}
+
+.inner-footer1 ul {
+     display: flex;
+     list-style-type: none;
+}
+
+.inner-footer1 li {
+    font-size: 14px;
+    padding: 9px;
+
+}
