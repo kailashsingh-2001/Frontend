@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont {
+
+    display: flex;
+    height: 500px;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont video {
+
+    height: 490px;
+    width: 360px;
+}
+
+.cont2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 450px;
+    width: 300px;
+}
+
+.box1 {
+
+    border: 1px solid rgb(223, 221, 221);
+    height: 400px;
+    width: 100%;
+
+
+
+
+}
+
+.instagram {
+
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.intaimage {
+    width: 50%;
+    height: 40px;
+
+}
+
+.inputs {
+
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.inputs input {
+    background-color: rgb(252, 249, 249);
+    width: 80%;
+    padding: 8px;
+    margin: 2px;
+    border: 1px solid rgb(252, 249, 249);
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 3px;
+    width: 80%;
+    background-color: rgb(0, 149, 246);
+    border: none;
+    margin-top: 5px;
+    color: white;
+}
+
+h4 {
+    position: relative;
+
+
+}
+
+.right {
+    position: relative;
+    top: 11px;
+    right: 40px;
+
+
+}
+
+.left {
+    position: relative;
+    bottom: 9px;
+    left: 29px;
+
+}
+
+.box2 {
+    border: 1px solid rgb(223, 221, 221);
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.get {
+    text-align: center;
+    font-size: 14px;
+}
+
+.image img {
+    padding: 5px;
+    border: none;
+    height: 40px;
+    width: 40%;
+
+}
+
+.ics {
+
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon {
+    color: rgb(0, 149, 246);
+    font-size: 12px;
+}
+
+
+.forgot {
+
+    font-size: 12px;
+
+}
