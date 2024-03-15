@@ -369,24 +369,141 @@ overflow: hidden;
 
 }
 
-table, tr  {
-  
-  border: 1px solid gray;
-  border-collapse: collapse;
-  color:transparent;
-  height: 300px;
+.dooplepress {
+
   
   
-  margin-left: 10px;
-  margin-right: 20px;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+ 
+  
+  
+  
+
+}
+.dopple{
+ 
+  height: 50%;
+  width: 100%;
+  display: flex;
+  color: transparent;
+}
+.inner-dopple1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   background-image:url('dooplepress1.jpg'); 
+  
+  background-repeat: none;
+   background-position: center;
+   background-size: cover;
+   opacity: 1;
+}
+.inner-dopple2{ 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url('dooplepress2.jpg');
+  background-repeat: none;
+   background-position: center;
+   background-size: cover;}
+.inner-dopple3{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url('dooplepress3.jpg');
+  background-repeat: none;
+   background-position: center;
+   background-size: cover;
+}
+.inner-dopple4{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url('dooplepress4.jpg');
+  background-repeat: none;
+   background-position: center;
+   background-size: cover;
+}
+.inner-dopple5{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url('dooplepress5.jpg');
+  background-repeat: none;
+   background-position: center;
+   background-size: cover;
+}
+.inner-dopple6{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url('dooplepress6.jpg');
+  background-repeat: none;
+   background-position: center;
+   background-size: cover;
+}
+.inner-dopple7{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url('dooplepress7.jpg');
+  background-repeat: none;
+   background-position: center;
+   background-size: cover;
+}
+.inner-dopple8{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url('dopplepress8.jpg');
+  background-repeat: none;
+   background-position: center;
+   background-size: cover;
+}
+.inner-dopple9{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url('dooplepress9.jpg');
+  background-repeat: none;
+   background-position: center;
+   background-size: cover;
+}
+.inner-dopple10{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url('dopplepress10.jpg');
+  background-repeat: none;
+   background-position: center;
+   background-size: cover;
+  
 }
 
  
 
-table  td:hover{
-background-color: transparent black;
-  color:rgb(154, 19, 19); 
-    width: 300px;
+.dooplepress .dopple   :hover{
+   
+ 
+   font-size: 14px;
+   font-family: sans-serif;
+  color: red;
+  transition: 0.10s;
+
+    
   
 }
 .footer{
