@@ -1,16 +1,21 @@
-import Card from "./Card";
+import Card from "./Card" 
+ 
+ 
+ function Productsection(){
+       return(
 
 
-function Section(){
-   
-    return(
-       <>
-        <div className="section">
-            <div className="innersection">
-                <div className="innersec">
-                <h1>Latest Products</h1>
-                <p><a href="">VIEW ALL PRODUCT </a></p>
-                </div>
+        <>
+         <div className="productsection">
+            <div className="productinnersection">
+                
+                <ul className="productsec"> 
+                    <li>ALL PRODUCTS</li>
+                    <li>FEATURED</li>
+                    <li>FLASH DEALS</li>
+                    <li>LAST MINUTE</li>
+                </ul>
+                
             </div>
         </div>
         <div className="innersection1">
@@ -21,11 +26,13 @@ function Section(){
                 <Card title={"Title goes here"} rate={"$15.25"} reviews={"Reviews(48)"} />
                 <Card title={"Title goes here"}  rate={"$12.50"} reviews={"Reviews(16)"}/>
                 <Card title={"Title goes here"} rate={"$22.50"} reviews={"Reviews(32)"}/>
-            </div> 
+            </div>
         </div>
-  
+        
         </>
-    )
+       )
+
+
 
 }
-export default   Section;
+export default Productsection

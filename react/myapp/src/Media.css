@@ -1,8 +1,60 @@
 @media screen and (max-width: 1000px){
-     .innernav ul li{
+     .innernav ul {
         display:none;
      }
-     .bar{
-        display:block;
+     .innernav2{
+      display:flex;
      }
+     
+     
 }
+@media screen and (max-width: 750px){
+   #newarrival{
+     text-align: center;
+   }
+  
+  
+   .innersec{
+      display:block;
+   }
+   .card{
+      width: 100%;
+     
+   }
+   .intersection{
+      height: fit-content;
+   }
+   .innersection1{
+      height: auto;
+   }
+   .middle{
+      height: auto;
+   }
+   .middle2content{
+      width: 100%;
+   }
+   .innermiddle2{
+      flex-wrap: wrap;
+   }
+   .middleimage{
+      width: 100%;
+   }
+   .uppercont{
+      display: block;
+   }
+   .uppercont h4{
+      text-align: center;
+   }
+   .footercontent{
+      text-align: center;
+   }
+   .inneraboutsection1{
+      
+      flex-wrap: wrap;
+      height:auto;
+  
+      
+
+   }
+}
+

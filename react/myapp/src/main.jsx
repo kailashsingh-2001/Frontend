@@ -1,24 +1,18 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-// import App from './App.jsx'
-// import './index.css'
-import Header from './Header.jsx'
+
+import './Product.css'
 import './App.css'
 import './Media.css'
-// import './Script.js'
-import Slide from './Slide.jsx'
-import Footer from './Footer.jsx'
-import Section from './Section.jsx'
-import Card from './Card.jsx'
+import './About.css'
+import './Contact.css'
+
+import Home from './assets/Components/Home/Home.jsx'
+import App from './App.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    {/* <App/> */}
-    <Header/>
-    <Slide/>
-    <Section/>
-    <Card/>
-     <Footer/>
+    <App/>
   </React.StrictMode>,
 )

@@ -1,8 +1,14 @@
 function Footer(){
     return(
+        <>
         <div className="footer">
-            <p>COPYRIGHT © 2020 SIXTEEN CLOTHING CO., LTD. - DESIGN: TEMPLATEMO</p> 
+            <div className="innerfooter">
+                <div className="footercontent">
+                   COPYRIGHT © 2020 SIXTEEN CLOTHING CO., LTD. - DESIGN: <span>TEMPLATEMO</span>
+                </div>   
+            </div>
        </div>
+       </>
 
     )
 }
