@@ -1,0 +1,21 @@
+.aboutsection{
+    width: 100%;
+    background-attachment: fixed;
+    background-image: url('/src/images/services-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.inneraboutsection1{
+    width: 82%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgb(22, 246, 205); */
+    margin: 10px 10px;
+}

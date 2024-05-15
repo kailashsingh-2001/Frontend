@@ -1,10 +1,13 @@
+import '../innersectionabout/Innersectionabout.css'
+// import './media.css'
+
 function Innersectionabout(props){
     return(
         <>
         <div className="inneraboutsection">
                 <div className="gearicon">
                    <div className="inner-gear"> 
-                   <i class="fa-solid fa-gear"></i>
+                   <i className="fa-solid fa-gear"></i>
                    </div>
                 </div>
                 <div className="gearicon1">

@@ -1,5 +1,6 @@
 
-
+import '../Slider/Slide.css'
+import '../Media.css'
 function Slide(){
 
 
@@ -38,7 +39,7 @@ function Slide(){
 
     return(
        
-        <div class="slider">
+        <div className="slider">
         <div className="banner1">
             <div className="innerslider1">
                     <p id="bestoffer">BEST OFFER</p>

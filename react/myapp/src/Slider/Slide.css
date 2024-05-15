@@ -1,0 +1,126 @@
+.slider{
+    height:88vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .banner1{
+    
+    background-image: url('src/images/slide_01.jpg');
+    background-position: center;
+   
+    
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  .banner2{
+    background-image: url('src/images/slide_02.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    height: 100%;
+    width: 100%;
+    
+    display:none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  .banner3{
+    background-image: url('src/images/slide_03.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    height: 100%;
+    width: 100%;
+    
+    display:none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  .innerslider1{
+   
+    
+   color: white;
+   
+   
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  .innerslider2{
+    height: 90%;
+    
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  .innerslider3{
+    height: 90%;
+   
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  #bestoffer{
+   
+    font-family: Poppins, sans-serif;
+    font-size:22px;
+    font-weight:800;
+    letter-spacing: 5px;
+    color: #f33f3f;
+  }
+  #newarrival{
+    font-family: Poppins, sans-serif;
+    font-size:50px;
+    font-weight: 500;
+   
+    letter-spacing: 10px;
+    color:white;
+  }
+  
+  
+  .sliderbtn{
+    padding: 10px 10px ;
+    
+    color: white;
+  
+     width:7%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .sliderbtn button{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    
+    border: none;
+  }

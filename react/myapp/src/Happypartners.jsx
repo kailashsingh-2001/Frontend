@@ -1,23 +1,27 @@
-function Happypartners(){
+                                                 
+ import kk from './images/client1.png'
+ 
+ function Happypartners(){
+   
     return(
         <>
-        <div className="happypartner">
-            <div className=""></div>
-            <div>
-                <div>
-                    <img src="" alt="" />
+        <div className="client-container">
+            {/* <div className=""></div> */}
+            <div className="client-innercont1">
+                <div className="client-image-cont">
+                   <img src={kk} alt="Client Logo" />
                 </div>
-                <div>
-                    <img src="" alt="" />
+                <div className="client-image-cont">
+                    <img src={kk} alt="" />
                 </div>
-                <div>
-                    <img src="" alt="" />
+                <div className="client-image-cont">
+                    <img src={kk} alt="" />
                 </div>
-                <div>
-                    <img src="" alt="" />
+                <div className="client-image-cont" id='client-img-none1'>
+                    <img src={kk} alt="" />
                 </div>
-                <div>
-                    <img src="" alt="" />
+                <div className="client-image-cont" id='client-img-none2'>
+                    <img src={kk} alt="" />
                 </div>
             </div>
 

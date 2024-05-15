@@ -1,7 +1,7 @@
-import Footer from "../../../Footer";
-import Aboutmiddle from "../../../Aboutmiddle";
-import Header from "../../../Header";
-import Aboutsection from "../../../Aboutsection";
+import Footer from "../../../Footer/Footer";
+import Aboutmiddle from "../../../Aboutmiddle/Aboutmiddle";
+import Header from "../../../Header/Header";
+import Aboutsection from "../../../Aboutsection/Aboutsection";
 import Happypartners from "../../../Happypartners";
 
 

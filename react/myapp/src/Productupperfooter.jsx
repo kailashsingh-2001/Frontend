@@ -11,7 +11,7 @@ function Productupperfooter(){
               <button className="productbtn">2</button>
               <button className="productbtn">3</button>
               <button className="productbtn">4</button>
-              <button className="productbtn"><i class="fa-solid fa-arrow-right"></i></button>
+              <button className="productbtn"><i className="fa-solid fa-arrow-right"></i></button>
                
             </div>
         </div>

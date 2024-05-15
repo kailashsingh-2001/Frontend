@@ -12,7 +12,7 @@ function Upperfooter(){
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque corporis amet elite author nulla.</p>
                     </div>
                     <div className="upperbtn">
-                        <Button ns="purchase now"/>
+                        <button ns="purchase now"/>
                     </div>
                 </div>
             </div>

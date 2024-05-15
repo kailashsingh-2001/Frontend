@@ -1,4 +1,5 @@
-import Innersectionabout from "./Innersectionabout";
+import Innersectionabout from "../innersectionabout/Innersectionabout";
+import '../Aboutsection/Aboutsection.css'
 
  function Aboutsection(){
     return(

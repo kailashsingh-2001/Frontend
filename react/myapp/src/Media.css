@@ -1,13 +1,4 @@
-@media screen and (max-width: 1000px){
-     .innernav ul {
-        display:none;
-     }
-     .innernav2{
-      display:flex;
-     }
-     
-     
-}
+
 @media screen and (max-width: 750px){
    #newarrival{
      text-align: center;
@@ -48,13 +39,28 @@
    .footercontent{
       text-align: center;
    }
+   /* abouts page */
+
    .inneraboutsection1{
       
       flex-wrap: wrap;
       height:auto;
-  
-      
+   }
+   
+   .inneraboutmiddle2{
+     flex-direction: column;
+    
+     
+     
+   }
+   #client-img-none2{
+      display: none;
 
    }
+   #client-img-none1{
+      display: none;
+   }
+   
+   
 }
 

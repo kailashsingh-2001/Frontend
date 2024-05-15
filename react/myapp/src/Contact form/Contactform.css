@@ -1,0 +1,25 @@
+.form-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    width: 82%;
+    border: 1px solid black;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.inner-form{
+    
+ width: 50%;
+ border: 1px solid red;
+ display: flex;
+ flex-direction: column;
+}
+.inner-form input{
+    padding: 10px;
+    margin: 5px 5px;
+}

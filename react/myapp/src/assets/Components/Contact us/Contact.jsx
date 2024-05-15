@@ -1,5 +1,8 @@
-import Footer from "../../../Footer"
-import Header from "../../../Header"
+import Footer from "../../../Footer/Footer"
+import Happypartners from "../../../Happypartners"
+import Header from "../../../Header/Header"
+import Contactmap from "../../../Contact map/Contactmap"
+import Contactform from "../../../Contact form/Contactform"
 
 function Contact(){
 
@@ -13,7 +16,12 @@ function Contact(){
                 <h1>LET'S GET IN TOUCH</h1>
             </div> 
         </div>
-         
+        
+ 
+        <Contactmap/>
+        <Contactform/>
+        
+         <Happypartners/>
         <Footer/>
         </>
     )

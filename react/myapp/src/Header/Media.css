@@ -1,0 +1,10 @@
+@media screen and (max-width: 1000px){
+    .innernav ul {
+       display:none;
+    }
+    .innernav2{
+     display:flex;
+    }
+    
+    
+}

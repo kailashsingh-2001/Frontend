@@ -7,7 +7,7 @@ import './Media.css'
 import './About.css'
 import './Contact.css'
 
-import Home from './assets/Components/Home/Home.jsx'
+// import Home from './assets/Components/Home/Home.jsx'
 import App from './App.jsx'
 
 

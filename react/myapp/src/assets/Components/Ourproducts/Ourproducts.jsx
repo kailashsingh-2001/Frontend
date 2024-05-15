@@ -1,5 +1,5 @@
-import Footer from "../../../Footer";
-import Header from "../../../Header";
+import Footer from "../../../Footer/Footer";
+import Header from "../../../Header/Header";
 import Productsection from "../../../Productsection";
 import Productslide from "../../../Productslide";
 import Productupperfooter from "../../../Productupperfooter";
