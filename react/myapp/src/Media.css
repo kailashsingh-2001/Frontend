@@ -3,15 +3,12 @@
    #newarrival{
      text-align: center;
    }
-  
+   
   
    .innersec{
       display:block;
    }
-   .card{
-      width: 100%;
-     
-   }
+   
    .intersection{
       height: fit-content;
    }
@@ -60,7 +57,26 @@
    #client-img-none1{
       display: none;
    }
-   
+   /* productionsection */
+   .productinnersection{
+      width: auto;
+
+   }
+   .productinnersection ul {
+      width:auto;
+      
+     
+      
+   }
+  .productinnersection li{
+      font-size: 8px;
+      margin: 0px 0px;
+      
+   }
+   .porductsec #linkid{
+    
+   }
+   /* productionmediaenden */
    
 }
 

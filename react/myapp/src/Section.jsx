@@ -1,4 +1,4 @@
-import Card from "./Card";
+import Card from "../src/Card/Card.jsx";
 
 
 function Section(){
@@ -16,6 +16,9 @@ function Section(){
         <div className="innersection1">
             <div className="intersection">
                <Card/>
+               
+
+               
             </div> 
         </div>
   

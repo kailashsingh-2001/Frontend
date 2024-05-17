@@ -3,6 +3,7 @@ import Aboutmiddle from "../../../Aboutmiddle/Aboutmiddle";
 import Header from "../../../Header/Header";
 import Aboutsection from "../../../Aboutsection/Aboutsection";
 import Happypartners from "../../../Happypartners";
+import Member from "../../../About members/Member";
 
 
 function About(){
@@ -15,7 +16,9 @@ function About(){
                     <h1>OUR COMPANY</h1>
             </div> 
         </div>
+       
         <Aboutmiddle/>
+        <Member/>
         <Aboutsection/>
         <Happypartners/>
          

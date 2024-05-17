@@ -1,23 +1,15 @@
 import { Link ,NavLink} from "react-router-dom";
-
+import React, { useState } from "react";
 import '../Header/Header.css'
 import '../Header/Media.css'
-// import { useState } from "react";
+
 
 
 function Header(){
     
-
-    // document.getElementById('btn').addEventListener('click',function(){
-    //     let a=document.getElementsByClassName('inner-menubar').innerHTML;
-    //     a.style.display='flex';
-
-
-    // })
-
-
-
+  const [status,setStatus]=React.useState(false)
     return(
+        
         <>
         <div className="navbar">
                 <div className="logo">
@@ -32,24 +24,46 @@ function Header(){
                     </ul>
 
                     <div className="innernav2">
-                     <button id='btn' >
+                   
+                     <button id='btn' onClick={()=>setStatus(!status)}>
                         <i className="fa-solid fa-bars"></i>
                      </button> 
+                    
                     </div>
                 </div>
                
-            </div>
-            <div className="menubar">
-                <div className="inner-menubar">
-                    <ul>
-                    <li><NavLink to="/"className="menubarlink" > home </NavLink> </li>
-                    <li><NavLink to="/product" className="menubarlink" >our products </NavLink></li>
-                    <li><NavLink to="/about" className="menubarlink" > About us</NavLink></li>
-                    <li><NavLink to="/contact"className="menubarlink" >contact us</NavLink></li>
-                      
-                    </ul>
-                </div>
-            </div>
+        </div>
+                   {
+                     status ?
+                        
+                     <div className="menubar">
+                   
+                  
+                     <div className="inner-menubar">
+                     <ul>
+                     <li className="menulist"><NavLink to="/"className="menubarlink" > home </NavLink> </li>
+                     <hr />
+                     <li className="menulist"><NavLink to="/product" className="menubarlink" >our products </NavLink></li>
+                     <hr/>
+                     <li className="menulist"><NavLink to="/about" className="menubarlink" > About us</NavLink></li>
+                     <hr/>
+                     <li className="menulist"><NavLink to="/contact"className="menubarlink" >contact us</NavLink></li>
+                       
+                     </ul>
+                   </div>
+                   
+                 
+                
+                   </div>
+                   :null
+
+                   }
+                 
+            
+           
+        
+        
+            
         </>    
     )
 }

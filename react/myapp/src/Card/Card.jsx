@@ -1,6 +1,10 @@
 // import im from './images/product_01.jpg'
+import '../Card/Card.css'
+import '../Card/Card-media.css'
 
-import Cardproduct from './Cardproduct';
+
+
+import Cardproduct from '../Card/Cardproduct';
 function Card(){
   // console.log(Cardproduct);
 

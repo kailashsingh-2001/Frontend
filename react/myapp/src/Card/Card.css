@@ -1,0 +1,97 @@
+.card{
+    margin: 10px 10px;
+    width: 28%;
+    height: fit-content;
+    border: 1px solid rgb(218, 217, 217);
+    box-shadow: 1px 2px rgb(218, 217, 217) ;
+  }
+  .cardimage{
+    width: 100%;
+    height: 40%;
+    
+  }
+  .cardimage img{
+    width: 100%;
+    height: 100%;
+  
+  }
+  .innercard{
+    background-color: white;
+    width: 100%;
+    height:60% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .cardtitle{
+    width:85% ;
+    height: 20%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+   
+  }
+  .title{
+    /* border: 1px solid red; */
+    color: rgb(100, 100, 218);
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    width: 120px;
+    height: 50px ;
+    display: flex;
+    
+  
+    
+  
+  }
+  .rate{
+    /* border: 1px solid red; */
+    color: #3f3f3f;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .carddiscription{
+    width:85% ;
+    height: 30%;
+    display: flex;
+    text-align: justify;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family:Poppins, sans-serif;
+    color: #838282;
+  
+  }
+  .cardreviews{
+    width:100% ;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .innerreview{
+    width: 90px;
+    height: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  #review{
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #f33f3f;
+  }
+  .fa-star{
+    color:#f33f3f ;
+  }
