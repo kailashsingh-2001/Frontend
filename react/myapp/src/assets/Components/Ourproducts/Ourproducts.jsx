@@ -11,11 +11,11 @@ function Product(){
 
     return(
         <>
-        <Header/>
+        {/* <Header/> */}
         <Productslide/>
         <Productsection/>
         <Productupperfooter/>
-        <Footer/>
+        {/* <Footer/> */}
         </>
 
     )

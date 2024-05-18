@@ -1,31 +1,39 @@
+import team1 from '../images/team_01.jpg'
+import team2 from '../images/team_02.jpg' 
+import team3 from '../images/team_03.jpg'
+import team4 from '../images/team_04.jpg'
+import team5 from '../images/team_05.jpg'
+import team6 from '../images/team_06.jpg'
+
+
 const Mancartjs=[
     {
-        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO-foeo4fLswh0ka3jCfWkJHF1Na7yrISfT5Xxmv1Vg1iTas_F",
+        image: team1,
         name:"Johnny William",
         occupation:"CO-Founder",
     },
     {
-        image:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQZFm0o1TmuUZFst4tbEln6HoYom41JWBDYTY8Q_wWITCobeKrT",
+        image:team2,
         name:"Karry Pitcher",
         occupation:"Product Expert",
     },
     {
-        image:"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSjaAzrjrJ6TKPSgc-w772dTFcsoTE27G6ZoVRyD3Af5ae-N06W",
+        image:team3,
         name:"Michael Soft",
         occupation:"Chief Marketing",
     },
     {
-        image:"https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQfYfjFBZ1xDxhbcejHGrOezJX1pYlcJjQa8t_F9bVWqNKuQw7y",
+        image:team4,
         name:"Mary Cool",
         occupation:"Product Specialist",
     },
     {
-        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRwRmRlkrR6FQsHJP1Rb8hQ7_DPJ5ANTNrIqvYsmvKxC9ziPws",
+        image:team5,
         name:"George Walker",
         occupation:"Product Photographer",
     },
     {
-        image:"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTfxiSwWYlti7Bqbpeo9i5OwR518oJLERtzNNuOe7_yNJADYrIY",
+        image:team6,
         name:"Kate Town",
         occupation:"General Manager",
     },

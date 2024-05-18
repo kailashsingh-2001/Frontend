@@ -1,0 +1,29 @@
+.client-container{
+    width: 100%;
+    /* border: 1px solid rgb(60, 14, 225); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-innercont1{
+    /* border: 2px solid red; */
+    width:82%;
+    /* height: */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 10px;
+
+ 
+}
+.client-image-cont{
+    /* border: 1px solid black; */
+    width:200px;
+    height: 100%;
+    margin: 10px 10px;
+}
+.client-image-cont img{
+width: 100%;
+height: 100%;
+}

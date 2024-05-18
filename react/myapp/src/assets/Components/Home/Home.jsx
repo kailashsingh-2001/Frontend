@@ -9,12 +9,12 @@ import Footer from "../../../Footer/Footer"
 function Home(){
     return(
         <>
-    <Header/>
+    {/* <Header/> */}
     <Slide/>
     <Section/>
     <Middle/>
     <Upperfooter/>
-    <Footer/>
+    {/* <Footer/> */}
     </>
 
     )

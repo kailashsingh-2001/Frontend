@@ -1,0 +1,24 @@
+@media screen and (max-width: 750px){
+
+    .form{
+        flex-wrap: wrap;
+    }
+    .inner-form1{
+        width: 100%;
+    }
+    .inner-form2{
+        width: 100%;
+        height: auto;
+        /* margin-top: 20px; */
+    }
+    .inner-form1 input{
+        /* width: 100%; */
+    }
+    .inner-form1 button{
+        width:auto;
+    }
+    textarea{
+        /* width: 100%; */
+    }
+    
+}
