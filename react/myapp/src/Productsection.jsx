@@ -1,12 +1,14 @@
 import { useEffect, useState } from "react"
 import Card from "../src/Card/Card.jsx"
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 import Cardproduct from "./Card/Cardproduct.js";
 
 
 function Productsection() {
 
     const [Product, setProduct] = useState([]);
+    const [activeButton, setActiveButton] = useState("all");
+
      
   
         
@@ -20,6 +22,7 @@ function Productsection() {
     function All() {
         
         setProduct(Cardproduct)
+        setActiveButton("all");
     }
 
 
@@ -35,12 +38,15 @@ function Productsection() {
         <>
             <div className="productsection">
                 <div className="productinnersection">
-                    <ul>
-                        <li><button onClick={() => All('allproducts')}>ALL PRODUCTS</button></li>
-                        <li><button onClick={() => kk('featured')}>FEATURED</button></li>
-                        <li><button onClick={() => kk('flash deals')}>FLASH DEALS</button></li>
-                        <li><button onClick={() => kk('lastminute')}>LAST MINUTE</button></li>
-                    </ul>
+                   
+                       
+                        <button onClick={() => All()} className={activeButton === "all" ? "button active" : "button"} >ALL PRODUCTS</button>
+                      
+                          
+                        <button onClick={() => kk('featured')} className={activeButton === "featured" ? "button active" : "button"}>FEATURED</button>
+                        <button onClick={() => kk('flash deals')} className={activeButton === "flash deals" ? "button active" : "button"}>FLASH DEALS</button>
+                        <button onClick={() => kk('lastminute')} className={activeButton === "lastminute" ? "button active" : "button"}>LAST MINUTE</button>
+                   
                 </div>
             </div>
             <div className="innersection1">

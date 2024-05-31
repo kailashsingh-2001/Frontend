@@ -78,30 +78,18 @@
    align-items: center;
    width: 80%;
 }
-.productinnersection ul{
-   /* border:1px solid green; */
-   width: 80%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   list-style-type: none;
-   
-   
-}
-.productinnersection li{
-  /* border: 1px solid blue; */
-  /* padding: 10px ;
-  font-size: 14px;
-  margin: 10px 10px; */
-  }
-  /*productsection ended  */
+/*  */
+  
 
-  .productinnersection button{
+
+  .productinnersection  button{
    border: none;
    background-color: white;
+   
    padding: 20px ;
   }
-  .productinnersection button.active {
-   
-   color: rgb(219, 12, 12);
- }
+  .activeButton{
+   color:#f33f3f;
+  }
+
+  
