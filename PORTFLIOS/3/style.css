@@ -72,9 +72,10 @@ nav{
     align-items: center;
 }
 .main-content{
-    border: 1px solid red;
+    /* border: 2px solid rgb(12, 13, 12); */
     width: 50%;
-    height: 100%;
+    height: 100vh;
+   
 }
 
 .des-cont{
@@ -83,17 +84,15 @@ nav{
    position: relative;
    align-items: center;
    flex-direction: column;
-   border: 1px solid  red ;
+   /* border: 1px solid  red ; */
 }
 .description-content{
     width: 50%;
-    /* height: 60vh; */
+   margin-top: 10%;
     padding: 10px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     display: flex;
-    /* justify-content: ; */
-
-    flex-direction: column;
+   flex-direction: column;
     p{
         padding: 10px;
         /* text-align: center; */
@@ -106,17 +105,34 @@ nav{
         font-size: 56px;
         text-transform: capitalize;
     }
+    #content-p{
+        font-size: 12px;
+
+    }
+
+    button{
+        padding: 12px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        border: none;
+        font-size: 12px;
+        text-transform: capitalize;
+        width: 45%;
+        font-weight: bold;
+        border-radius: 10px;
+    }
 }
 
 /* description image */
 .description-image{
-    border:1px solid rgb(85, 0, 255);
+    /* border:1px solid rgb(248, 12, 185); */
     display: flex;
     height: 20vh;
     width: 50%;
 }
 .img-roll{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width:50%;
     display: flex;
    img{
@@ -125,39 +141,155 @@ nav{
     }
 }
 .img-square{
-    border: 1px solid purple;
-    width:20vw;
-    height: 60vh;
+    /* border: 1px solid purple; */
+    width:30%;
+    height: 50%;
     position:absolute;
-    left:60%;
-    top: 40%;
+    left:71%;
+    top: 60%;
     img{
         width: 100%;
         height: 100%;
     }
+}
+.star{
+    position: absolute;
+    top:55%;
+    left:67%;
+    color: orange;
+    font-size: 50px;
 }
 
 
 
 /* main-port */
 .main-port{
-    background-color: rgb(212, 212, 212);
+    /* background-color: rgb(212, 212, 212); */
     width: 50%;
-    border: 1px solid blue;
-    /* height: 100%; */
+    height: 100vh;
+    /* border: 1px solid blue; */
     display: flex;
-    /* justify-content: center; */
-    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
 
+}
+.exp-radius{
+    position: absolute;
+    top: 20%;
+    right: 92%;
+    width: 15%;
+    height: 15%;
+    border-radius: 100%;
+    background-color: rgb(81, 83, 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h2{
+        color: white;
+        text-align: center;
+        font-size: 14px;
+    }
 }
 .port-img{
     width: 70%;
-    height: 80vh;
+    height: 80%;
+    margin-top: 11%;
     img{
     height: 100%;
     width: 100%;
     }
     
+}
+.love-shape{
+    background-color: white;
+    /* border: 1px solid black; */
+    width: 15%;
+    height: 15%;
+    position: absolute;
+    top: 54%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+        color:orange;
+        font-size: 28px;
+    }
+}
+
+.brackets{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 70%;
+    padding: 10px;
+
+    p{
+        font-size: 20px;
+    }
+    span{
+        border: 1px solid black;
+        width: 15%;
+        padding: 0;
+        height: 0;
+        margin-top: 10px;
+    }
+}
+
+/* section cont */
+
+.section-cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(235, 246, 254);
+}
+
+.section-icon{
+    /* border: 1px solid red ; */
+    padding: 10px;
+    width: 30%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+    
+    .fa-brands{
+        margin: 8px 8px;
+        font-size: 18px;
+    }
+}
+
+.section-heading{
+    /* border: 1px solid red; */
+    padding: 10px;
+    width: 30%;
+    p{
+        text-align: center;
+        font-size: 14px;
+        font-family: sans-serif;
+    }
+    h3{
+        text-align: center;
+        font-size: 16px;
+        font-family: sans-serif;
+    }
+}
+
+.section-video{
+    /* border: 1px solid red; */
+    border-radius: 50px;
+    width: 20%;
+
+    video{
+        width: 100%;
+        height: 100%;
+        border-radius: 50px;
+        
+    }
 }
 
 
