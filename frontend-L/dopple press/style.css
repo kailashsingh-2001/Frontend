@@ -1,0 +1,597 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  
+ 
+    
+   
+  
+  .nav{
+    background-image: url("dopplepress.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:right;
+    height:90vh;
+    width: 100%;
+    
+   
+    
+}
+
+/* The sidepanel menu */
+.sidepanel {
+    height: 600px;
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color:yellow; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    
+  }
+  
+  /* The sidepanel links */
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color:rgb(23, 166, 223);
+    text-align: center;
+    display: block;
+    
+  }
+  
+  
+  
+  
+  /* Position and style the close button (top right corner) */
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style the button that is used to open the sidepanel */
+  .openbtn {
+    width:15%;
+    height: 20%;
+    position: fixed; 
+    border-radius: 100%;  
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .menimage{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+  }
+
+  .menuimage{
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+
+
+  }
+  .flex-container{
+   
+    display: flex;
+    width: 100%;
+    height: 90vh;
+
+  }
+  .inner-flex{
+     width: 50%;
+    height: 90vh;
+  }
+  .inner-flex img{
+   height: 90vh;
+   width: 100%;
+    
+  }
+
+  .section{
+    width: 100%;
+    background-color: rgb(246, 111, 111);
+    height:15%;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    
+    
+    
+   }
+   .thirdsection{
+    background-color: rgb(246, 100, 100);
+    width: 100%;
+    height: 80vh;
+    display:flex;
+   }
+   .inner-section1{
+    border: 2px solid rgb(240, 82, 109);
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+   }
+
+   .button{
+    border: 2px solid black;
+    width:100%;
+    height: 30%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-align: center;
+
+   }
+    .btn{
+      background-color: rgb(193, 186, 186);
+      padding: 20px;
+      border: 1px solid rgb(102, 99, 99);
+   }
+   .risograph{
+    border: 2px solid black;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+   .inner-section2{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 50%;
+   }
+
+
+
+
+   .gif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100%;
+   }
+   .gif img{
+    height:80vh;
+    width: 80%;
+    
+   }
+   
+
+    
+  .text{
+
+   
+  font-weight: bold;
+  color: rgb(46, 70, 136);
+  position: static;
+  top: 200px;
+  left: 150px;
+
+  }
+
+
+.paragraph{
+  border: none;
+  height: 200px;
+  width:500px;
+  padding:180px;
+ }
+ .conts{
+  display: flex;
+ }
+
+
+
+
+ .soy-cont{
+  border: 2px solid black;
+  height:35vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .innersoy1{
+  border: 2px solid black;
+  height: 30vh;
+  width:50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  }
+ .innersoy2{
+  width:50%;
+  border: 2px solid black;
+  
+ }
+.undersoy{
+  width: 25%;
+  height: fit-content;
+  border: 2px solid black;
+  font-size: 60px;
+  font-weight: 400;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.bba{
+  margin-left: 100px;
+}
+.aside{float: right;
+border: 1 px solid black;
+background-color: blue;
+height: 600px;
+width: 150px;
+margin-right:170px ;
+overflow: hidden;
+
+}
+
+ .image1{
+  height: 200px;
+  width: 200px;
+ }
+
+ .print{
+  width: 100%;
+  background-color: rgba(241, 87, 15, 0.918);
+  height:120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+ }
+ .preparing{
+ 
+  width:70% ;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+ }
+ 
+
+ .boxes{
+  background-color: white;
+  
+  height:80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  
+  
+  
+ }
+
+ .box1{
+  width: 30%;
+  height: 100%;
+  
+  
+  
+}
+.box2{
+ 
+  width: 30%;
+  height: 100%;
+  border: 1px solid black;
+  display: flex;
+flex-direction: column;
+  
+  
+}
+.box ul li{
+  width: 90%;
+  font-size: 10px;
+}
+.box3{
+  
+  width: 30%;
+  height: 100%;
+  
+}
+
+.container{
+ 
+ width: 100%;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ height: 80vh;
+
+}
+.firsttext {
+  background-image: url('3.PNG');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.firsttext:hover{
+  
+
+}
+.secondtext {
+  background-image: url('2.PNG');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+secondtext:hover{
+  
+}
+
+
+
+.gfg {
+  width: 100%;
+  height: 80vh;
+ 
+ 
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+.designservices{
+  width: 50%;
+  height: 100%;
+  background-image: url('1.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   font-size: 40px;
+   font-weight: bold;
+   font-family: sans-serif;
+   color: white;
+
+}
+.designservices:hover{
+  font-size: 40px;
+  color: red;
+}
+
+
+.first-txt {
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(136, 46, 46);
+ position: absolute;
+  top: 180px;
+  left: 550px;
+  
+}
+.first-txt:hover{
+  font-size: 55px;
+  font-weight: bold;
+  color: rgb(136, 46, 46);
+ position: absolute;
+  top: 180px;
+  left: 530px;
+
+}
+
+.dooplepress {
+
+  
+  
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+ 
+  
+  
+  
+
+}
+.dopple{
+ 
+  height: 50%;
+  width: 100%;
+  display: flex;
+  color: transparent;
+}
+.inner-dopple1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   background-image:url('dooplepress1.jpg'); 
+  
+  background-repeat: none;
+   background-position: center;
+   background-size: cover;
+   opacity: 1;
+}
+.inner-dopple2{ 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url('dooplepress2.jpg');
+  background-repeat: none;
+   background-position: center;
+   background-size: cover;}
+.inner-dopple3{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url('dooplepress3.jpg');
+  background-repeat: none;
+   background-position: center;
+   background-size: cover;
+}
+.inner-dopple4{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url('dooplepress4.jpg');
+  background-repeat: none;
+   background-position: center;
+   background-size: cover;
+}
+.inner-dopple5{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url('dooplepress5.jpg');
+  background-repeat: none;
+   background-position: center;
+   background-size: cover;
+}
+.inner-dopple6{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url('dooplepress6.jpg');
+  background-repeat: none;
+   background-position: center;
+   background-size: cover;
+}
+.inner-dopple7{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url('dooplepress7.jpg');
+  background-repeat: none;
+   background-position: center;
+   background-size: cover;
+}
+.inner-dopple8{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url('dopplepress8.jpg');
+  background-repeat: none;
+   background-position: center;
+   background-size: cover;
+}
+.inner-dopple9{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url('dooplepress9.jpg');
+  background-repeat: none;
+   background-position: center;
+   background-size: cover;
+}
+.inner-dopple10{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image:url('dopplepress10.jpg');
+  background-repeat: none;
+   background-position: center;
+   background-size: cover;
+  
+}
+
+ 
+
+.dooplepress .dopple   :hover{
+   
+ 
+   font-size: 14px;
+   font-family: sans-serif;
+  color: red;
+  transition: 0.10s;
+  opacity: 0.5;
+
+    
+  
+}
+.footer{
+  background-color: black;
+  height:20px;
+  
+  padding:15px;
+  font-size: 20px;
+  color:white;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+
+.footerr{
+  background-color: black;
+  height:80px;
+  padding:80px;
+  color:white;
+  text-align: center;
+}
+.input{
+  height: 25px;
+  width: 400px;
+  background-color: black;
+  border: 2px solid white;
+  
+}
+.joindopple{
+  height: 35px;
+  width: 170px;
+  background-color: white;
+  font-size: 15px;
+  color:black;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

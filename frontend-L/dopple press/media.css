@@ -1,0 +1,34 @@
+@media screen and (max-width: 480px){
+    .nav{
+       
+    }
+    .flex-container{
+        border: 1px solid black;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+    }
+    .inner-flex{
+       width: 100%;
+        height: 100%;
+
+    }
+    .inner-flex  img{
+        height: 100%;
+    }
+
+    .section{
+        width: 100%;
+        height: 20%;
+        border: 2px solid black;
+        
+    }
+    
+    .thirdsection{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+}

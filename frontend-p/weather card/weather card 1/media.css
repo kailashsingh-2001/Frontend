@@ -1,0 +1,8 @@
+@media screen and(min-width:480px ){
+    .menu{
+        display: block;
+        color: white;
+        font-size: 20px;
+    }
+    
+}

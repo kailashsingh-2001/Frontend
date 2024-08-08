@@ -1,0 +1,18 @@
+
+
+
+@media (max-width:480px) {
+
+    .inner-bar ul{
+        /* visibility: hidden; */
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 40vh;
+        font-size: 1em;
+    }
+    
+} 
+    
