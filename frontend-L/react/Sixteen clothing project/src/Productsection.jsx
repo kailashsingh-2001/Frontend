@@ -23,11 +23,10 @@ function Productsection() {
     <>
       <div className="productsection">
         <div className="productinnersection">
-          <button onClick={() => All()}>ALL PRODUCTS</button>
-
-          <button onClick={() => kk("featured")}>FEATURED</button>
-          <button onClick={() => kk("flash deals")}>FLASH DEALS</button>
-          <button onClick={() => kk("lastminute")}>LAST MINUTE</button>
+          <a onClick={() => All()}> ALL PRODUCTS</a>
+          <a onClick={() => kk("featured")}>FEATURED</a>
+          <a onClick={() => kk("flash deals")}>FLASH DEALS</a>
+          <a onClick={() => kk("lastminute")}>LAST MINUTE</a>
         </div>
       </div>
       <div className="innersection1">

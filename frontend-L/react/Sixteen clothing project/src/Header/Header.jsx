@@ -17,7 +17,7 @@ function Header(){
                 </div>
                 <div className="innernav">
                     <ul>
-                    <li id="li1"><NavLink to="/"className="link" > home </NavLink> </li>
+                    <li id="li1"><NavLink to="/home"className="link" > home </NavLink> </li>
                     <li id="li2"> <NavLink to="/product" className="link" >our products </NavLink></li>
                     <li id="li3"> <NavLink to="/about" className="link" > About us</NavLink></li>
                     <li id="li4">  <NavLink to="/contact"className="link" >contact us</NavLink></li>
@@ -38,10 +38,10 @@ function Header(){
                         
                      <div className="menubar">
                    
-                  
+                    
                      <div className="inner-menubar">
                      <ul>
-                     <li className="menulist"><NavLink to="/"className="menubarlink" > home </NavLink> </li>
+                     <li className="menulist"><NavLink to="/home"className="menubarlink" > home </NavLink> </li>
                      <hr />
                      <li className="menulist"><NavLink to="/product" className="menubarlink" >our products </NavLink></li>
                      <hr/>

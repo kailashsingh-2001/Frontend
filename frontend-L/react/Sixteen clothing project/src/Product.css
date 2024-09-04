@@ -77,19 +77,23 @@
    justify-content: center;
    align-items: center;
    width: 80%;
+   /* border: 1px solid red; */
+   padding: 20px;
+   a{
+      margin: 10px 10px;
+   }
+   a:active{
+      color:#f33f3f;
+     }
+   
 }
 /*  */
   
 
 
-  .productinnersection  button{
-   border:none;
-   background-color: white;
-   
-   padding: 20px ;
-  }
-  .activeButton{
-   color:#f33f3f;
-  }
+  
+  
+  
+ 
 
   
